@@ -1,0 +1,33 @@
+# Ambientes e artefatos Python
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Compilações, instaladores e validações locais
+build-candidates/
+releases/
+validation/
+build/
+dist/
+*.log
+
+# Arquivos temporários e resultados gerados localmente
+*.tmp
+~$*
+filled.docx
+test.docx
+resultado_extraido.json
+API.docx
+bibliotecas-ppam.docx
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
